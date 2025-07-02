@@ -1,15 +1,6 @@
 🔐 Project Report
 Title: Reverse Shell Obfuscation and Evasion of Windows Defender & VirusTotal
 
-Team Members:
-• Muhammad Ammar Shaikh — Department of Cyber security  
-• Roll No:-(BCYS-015-2023S)  
-• LinkedIn :- linkedin.com/in/âmmar-shaikh-a5890b325  
-• GitHub:- github.com/ghost27-robot  
-• Muhammad Khalid — Department of Cyber security  
-• Roll No:-(BCYS-011-2023S)
-
----
 
 Environment: Kali Linux (VirtualBox) | Windows (Target)  
 Objective: To create, obfuscate, and execute a reverse shell payload that bypasses Windows Defender and VirusTotal detection in real-time.
